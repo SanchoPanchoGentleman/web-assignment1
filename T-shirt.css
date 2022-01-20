@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+body {          /*Убрать отступы от краев страницы*/
+    margin: 0;
+    padding: 0;
+    background-color: #e9e7ec;
+}
+
+#header-text{
+    color: #767091;
+    text-align: center;
+    text-shadow: 3px 3px  5px #2a073f;
+
+
+    font-family: cursive;
+    font-size: 100px;
+}
+
+@keyframes text-anim {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+.links a {
+    background-color: #767091;
+    color: #fffdfd;
+    float: bottom;
+    padding: 12px 24px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    animation-name: text-anim;
+    animation-duration: 2s;
+}
+
+
+/*Ссылки на другие разделы*/
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    margin: 5vw;
+}
+
+.link-sites {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 5vh;
+    font-family: "Open Sans", sans-serif;
+
+    text-align: center;
+    line-height: 5vw;
+    box-shadow: 1vh 1vh 2vw black;
+
+    height: 5vw;
+    width: 15vw;
+    display: block;
+    background-color: #3a0e60;
+    border-radius: 100vw;
+
+}
+
+.link-sites:hover {
+    cursor: pointer;
+    color: black;
+    background-color: wheat;
+}
+
+
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.images {
+
+}
+
+.item {
+    box-shadow: 1vw 1vw 2vw black;
+
+    padding: 1vh;
+    margin: 2vw;
+
+    height: 23vw;
+    width: 23vw;
+
+    background: linear-gradient(to top, #0052b0 40%, #006fff 50%) ;
+    border-radius: 2vw;
+
+    position: relative;
+    top: 20vw;
+}
+
+.desc {
+    font-family: "Open Sans 700", sans-serif;
+    font-size: 4vh;
+    background: linear-gradient( to top, #7b00ff 20%, #5020c9 50%);
+    color: #ffffff;
+    border-radius: 3vw;
+
+    top: 15vw;
+    left: 20px;
+
+    text-align: center;
+    position: relative;
+    width: 23vw;
+    padding: 1vw;
+}
+
+.buy-buttons {
+    font-size: 2vw;
+    font-family: "Open Sans 700", sans-serif;
+    color: #000000;
+    background: linear-gradient(to top, #01b201 10%, #37ff00 50%);
+    text-decoration: none;
+
+    box-shadow: 1vw 1vw 3vw black;
+    border: #08a200 solid 5px;
+    text-align: center;
+    border-radius: 5vw;
+    padding: 1vh;
+    margin: 1vw;
+
+    width: 15vw;
+    display: block;
+
+    position: relative;
+    top: 15vw;
+    left: 5vw;
+
+}
+.buy-buttons:hover {
+    background: linear-gradient(to top, #02cb02 10%, #b2ff4f 60%);
+
+}
+
+
+
+
+
+.text {
+    text-align: left;
+
+    color: #b1ecff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    margin-left: 100px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+
+footer {
+    position: relative;
+    top: 50em;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 100px;
+
+}

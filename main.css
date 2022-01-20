@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+/*Импорт шрифта Опен Санс должен быть на самом верху*/
+
+body {          /*Убрать отступы от краев страницы*/
+    margin: 0;
+    padding: 0;
+    /*background: url("https://wallpaper.dog/large/10844581.jpg") fixed; Это для темной темы*/
+    background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612811243_104-p-biryuzovii-gradient-fon-119.jpg") fixed;
+}
+
+
+/*Это раздел шапки основной страницы*/
+#header-text {
+    animation-name: anim;
+    animation-duration: 2s;
+    position: relative;
+
+    margin-bottom: 8vw;
+    text-align: center;
+    line-height: 300px;
+    padding: 100px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(to bottom, #0000ff 10%, #5858ff 90%);
+    font-size: 5vh;
+    color: #ffffff;
+}
+
+#button-in-header {
+    animation-name: anim;
+    animation-duration: 2s;
+    position: absolute;
+    text-decoration: none;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+
+    font-size: 80px;
+    line-height: 110px;
+    text-align: center;
+
+    top: 10%;
+    left: 90%;
+    cursor: pointer;
+}
+#button-in-header:hover {
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+@keyframes anim {
+    from {
+        top: -500px;
+    }
+    to {
+        top: 0;
+    }
+}
+
+
+ /*Ссылки на другие разделы*/
+.links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+    margin: 5vw;
+}
+
+.link-sites {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 2vw;
+    font-family: "Open Sans", sans-serif;
+
+    text-align: center;
+    line-height: 5vw;
+    box-shadow: 1vh 1vh 2vw black;
+
+    height: 5vw;
+    width: 15vw;
+    display: block;
+    background-color: black;
+    border-radius: 10vw;
+
+}
+
+.link-sites:hover {
+    cursor: pointer;
+    color: black;
+    background-color: wheat;
+}
+
+.text-in-div {
+
+    top: 10vw;
+    height: 42vw;
+    width: auto;
+    margin: 0 auto;
+
+    text-shadow: 1vw 1vw 3vw black;
+    text-align: center;
+    line-height: 13vw;
+
+    background: linear-gradient(to top, #0000cc 40%, #008cff 100%);
+
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+#list-in-div {
+    position: relative;
+    left: 4vw;
+
+    width: 80%;
+    text-align: left;
+    line-height: 5vw;
+    font-size: 4vh;
+}
+
+
+/*Одежда*/
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.images {
+
+}
+
+.item {
+    box-shadow: 1vw 1vw 2vw black;
+
+    padding: 1vh;
+    margin: 2vw;
+
+    height: 23vw;
+    width: 23vw;
+
+    background: linear-gradient(to top, #0052b0 40%, #006fff 50%) ;
+    border-radius: 2vw;
+
+    position: relative;
+    top: 20vw;
+}
+
+/*Надо будет добавить к товарам размеры от S до XXL, и ещё добавить кнопки "сохранить" и "купить" */
+/*А ещё добавить выпадающий список о нас, контакты, и использовать display: grid, <ul, ol, il>,  <input>*/
+
+.desc {
+    font-family: "Open Sans 700", sans-serif;
+    font-size: 4vh;
+    background: linear-gradient( to top, #00ffea 20%, #20c9b0 50%);
+    color: black;
+    border-radius: 3vw;
+
+    top: 15vw;
+    left: 20px;
+
+    text-align: center;
+    position: relative;
+    width: 23vw;
+    padding: 1vw;
+}
+
+.buy-buttons {
+    font-size: 2vw;
+    font-family: "Open Sans 700", sans-serif;
+    color: #000000;
+    background: linear-gradient(to top, #01b201 10%, #37ff00 50%);
+    text-decoration: none;
+
+    box-shadow: 1vw 1vw 3vw black;
+    border: #08a200 solid 5px;
+    text-align: center;
+    border-radius: 5vw;
+    padding: 1vh;
+    margin: 1vw;
+
+    width: 15vw;
+    display: block;
+
+    position: relative;
+    top: 15vw;
+    left: 5vw;
+
+}
+.buy-buttons:hover {
+    background: linear-gradient(to top, #02cb02 10%, #b2ff4f 60%);
+
+}
+
+
+
+
+.text {
+    color: #b1ecff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    margin-left: 100px;
+    padding: 30px;
+    text-decoration: none;
+}
+
+
+footer {
+    position: relative;
+    top: 50em;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 100px;
+    
+}
+

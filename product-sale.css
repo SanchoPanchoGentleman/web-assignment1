@@ -1,0 +1,89 @@
+body {
+    background: #b93232;
+}
+#x{
+    position: relative;
+    bottom: 3vw;
+    left: 43vw;
+
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(185, 50, 50);
+    font-size: 9vw;
+    background: white;
+    width: 10vw;
+
+    padding: 1vh;
+    border-radius: 50%;
+}
+
+h1.head-text {
+    position: relative;
+    bottom: 8vh;
+
+    left: 13vw;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 3vw;
+}
+
+.text {
+    bottom: 8vh;
+    font-size: 2vw;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    color: white;
+
+    position: relative;
+    left: 13vw;
+    width: 70%;
+}
+#checkbox-text{
+
+
+    font-size: 2vw;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    color: white;
+
+    left: 13vw;
+    width: 20%;
+    bottom: 8vh;
+    position: relative;
+
+
+}
+
+
+#more {
+    font-size: 2vw;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+    color: white;
+
+    position: relative;
+
+    left: 30%;
+    bottom: 2vh;
+}
+
+
+
+.back-to-safety {
+    background: rgb(255, 131, 131);
+    font-size: 2vw;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    color: white;
+
+    text-decoration: none;
+    position: relative;
+    left: 50%;
+    bottom: 2vh;
+    padding: 1vw;
+}
+
+.back-to-safety:hover {
+    background: rgb(255, 156, 156);
+}
